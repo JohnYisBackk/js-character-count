@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+    <title>Characters Count</title>
+  </head>
+  <body>
+    <main class="app">
+      <section class="counter-card">
+        <div class="top-glow"></div>
+
+        <header class="header">
+          <p class="eyebrow">Text Utility</p>
+          <h1>Character Counter</h1>
+          <p class="subtitle">
+            Track your text in real time with a clean and modern interface.
+          </p>
+        </header>
+
+        <section class="input-section">
+          <label for="textInput" class="label">Write something</label>
+          <textarea id="textInput" placeholder="Start typing here.."></textarea>
+        </section>
+
+        <section class="stats-grid">
+          <div class="stat-box">
+            <p class="stat-title">Characters</p>
+            <h2 id="charactersCount">0</h2>
+          </div>
+
+          <div class="stat-box">
+            <p class="stat-title">Words</p>
+            <h2 id="wordsCount">0</h2>
+          </div>
+
+          <div class="stat-box">
+            <p class="stat-title">Sentences</p>
+            <h2 id="sentencesCount">0</h2>
+          </div>
+
+          <div class="stat-box">
+            <p class="stat-title">Spaces</p>
+            <h2 id="spacesCount">0</h2>
+          </div>
+        </section>
+      </section>
+    </main>
+  </body>
+</html>
