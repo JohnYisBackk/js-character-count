@@ -69,7 +69,7 @@ The goal of this project was to build a simple but polished text utility app whi
 
 ## 🔗 Live Demo
 
-Add your GitHub Pages link here.
+https://johnyisbackk.github.io/js-character-count/
 
 
 ---
